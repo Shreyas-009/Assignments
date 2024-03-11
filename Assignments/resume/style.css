@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+    padding: 50px 100px;
+    background-color: #ededed;
+    box-shadow: 1px 1px 30px 1px black;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    text-align: left;
+}
+
+.description p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.divider {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
+.skills ul {
+    padding-right: 582px;
+}
+
+.skills ul li {
+    margin-bottom: 5px;
+}
+
+
+.education{
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-info {
+    gap: 20px;
+}
+
+.education2{
+    display: flex;
+    justify-content: space-between;
+}
+.education2 div:nth-child(2){
+    padding-left: 40px;
+}
+
+.education-info div {
+    flex: 1 1 50%;
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+}
+.projects2 {
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+}
+.projects .project {
+    margin-bottom: 20px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+.contact2{
+    margin-top: 20px;
+    padding-right: 445px;
+}
+
+.contact p {
+    margin: 0;
+    margin-bottom: 10px;
+}
